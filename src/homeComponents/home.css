@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.App{
+    height: 100%;
+
+}
+
+.nav{
+    background-color: rgba(8,3,37,.4);
+   position: sticky;
+   top: 0;
+   z-index: 4;
+}
+.title{
+    text-align: left;
+    color: white;
+    font-family:sans-serif;
+    font-size: 30px;
+
+}
+.gamebad{
+text-align: left;
+color: white;
+font-size: 40px;
+
+}
+.home{
+    background: rgba(8,3,37,.9);
+   height:474vh;
+  
+
+}
+.wrap{
+ 
+    position: absolute;
+    height:469vh;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  
+}
+
+ 
+
+  .section{
+      height: 100vh;
+     
+   
+  }
+  .infoContainer{
+      margin-top: 30vh !important;
+  }
+  .txt{
+      color: white;
+    text-align: center;
+    
+  }
+  .txt2{
+      
+    color: white;
+  text-align: center;
+  padding-bottom: 3%;
+  
+}
+.txt3{
+    color: white;
+  
+}
+.overlay{
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(8,3,37,.4);
+}
+.botn{
+   
+    color: white;
+    margin-top: 5%;
+    border: white solid 1px;
+ padding-left: 30px;
+ padding-right: 30px;
+    background: none;
+    cursor: pointer;
+    margin-right: 40%;
+    transform: skew(-21deg);
+    font-size: 20px;
+    
+    
+}
+.botn p{
+    display: inline-block; transform: skew(21deg);
+}
+.seebtn{
+    color: white;
+    border: white solid 1px;
+    padding-left: 30px;
+ padding-right: 30px;
+    background: none;
+    cursor: pointer;
+    transform: skew(-20deg);
+    font-size: 20px;
+    outline: none;
+   
+}
+.seebtn p{
+    display: inline-block; transform: skew(20deg);
+}
+.slider{
+    margin-top: 15vh;
+    height: 30vh;
+}
+.slide1{
+    height: 100%;
+    background-size: cover;
+    background-image: url('./pics/silde1.jpg');
+}
+.slide2{
+    height: 100%;
+    background-size: cover;
+    background-image: url('./pics/slide3.jpg');
+}
+.slide3{
+    height: 100%;
+    background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url('./pics/slide2.jpg');
+}
+.slideTxt{
+    color: white;
+    padding-top: 80px;
+}
+.games{
+color: white;
+}
+.prerelease{
+   
+    
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.num{
+    border:1px solid ;
+    padding-left: 30px;
+    padding-right: 30px;
+       background: none;
+       transform: skew(-20deg);
+       margin-top: 5%;
+    
+}
+.num h1{
+    display: inline-block; transform: skew(20deg);
+}
+.bn{
+    padding: 18px;
+    margin-top: 40%;
+}
+.mini_section{
+    height: 50vh;
+    position: relative;
+    color: white;
+}
+.logo_container{
+    width: 250px;
+    height: 200px;
+}
+.logo_container img{
+    width: 100%;
+    height: 100%;
+}
+.reason{
+    transform: skew(-20deg);
+  background-color:   rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.1);
+ 
+}
+.reason h3{
+    padding-top: 10px;
+ padding-bottom: 10px;
+    display: inline-block; transform: skew(20deg);
+
+}
+.reason p{
+    display: inline-block; transform: skew(20deg);
+}
+.pay_icons{
+    font-size: 40px;
+}
+.social{
+    height: 10vh;
+    transform: skew(-20deg);
+  background-color:  rgba(8,3,37,.3);
+  border: 1px solid rgba(255,255,255,.1); 
+}
+.social p{
+    display: inline-block; transform: skew(20deg);
+}
+
+@media only screen and (max-width: 763px) {
+    .buy {
+     height: 100vh;
+    }
+    .wrap{
+        height:52vh ;
+    }
+    .home{
+        height:528vh ;
+    }
+  }
+  .buy_icon{
+      border-radius: 0%;
+      font-size: 40px;
+     
+  }
+
+  
