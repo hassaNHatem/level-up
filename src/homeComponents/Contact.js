@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faAddressBook, faAlignCenter } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGooglePlus, faTwitch, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGooglePlus, faTwitch, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component {
     
@@ -25,7 +25,7 @@ class Contact extends Component {
                 <div className="col social mr-5"><div className="row h-100"><div className="col mx-auto text-center my-auto"><FontAwesomeIcon className="buy_icon" icon={faFacebook}/></div></div>
                 <div className="row"><div className="col mt-2"><p>Like on FaceBook</p></div></div>
                 </div>
-                <div className="col social mr-5"><div className="row h-100"><div className="col mx-auto text-center my-auto"><FontAwesomeIcon  className="buy_icon" icon={faTwitch}/></div></div>
+                <div className="col social mr-5"><div className="row h-100"><div className="col mx-auto text-center my-auto"><FontAwesomeIcon  className="buy_icon" icon={faTwitter}/></div></div>
                 <div className="row"><div className="col mt-2"><p>Follow On Twitter</p></div></div></div>
                 <div className="col social mr-5"><div className="row h-100"><div className="col mx-auto text-center my-auto"><FontAwesomeIcon className="buy_icon" icon={faGooglePlus}/></div></div>
                 <div className="row"><div className="col mt-2"><p>Follow On Google+</p></div></div></div>

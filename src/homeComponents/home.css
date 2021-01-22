@@ -10,7 +10,7 @@
 
 .nav{
     background-color: rgba(8,3,37,.4);
-   position: sticky;
+   position: sticky !important;
    top: 0;
    z-index: 4;
 }
