@@ -10,19 +10,24 @@ import {
   useParams
 } from "react-router-dom";
 import Shop from './components/ShopComponents/Shop';
+import {GamesProvider} from './gamesContext'
+
 function App() {
   return (
-    <Router>
-    <div className="App">
-      <Route path="/" exact>
-      <Home></Home>
-      </Route>
-      <Route path="/shop">
-        <Navbar></Navbar>
-    <Shop></Shop>
-      </Route>
-    </div>
-    </Router>
+    <GamesProvider>
+      <Router>
+      <div className="App">
+        <Route path="/" exact>
+          <Home></Home>
+        </Route>
+        <Route path="/shop">
+          <Navbar></Navbar>
+          <Shop></Shop>
+        </Route>
+      </div>
+      </Router>
+    </GamesProvider>
+
   );
 }
 
